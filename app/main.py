@@ -54,3 +54,4 @@ def career_mentor_endpoint(payload: CareerMentorRequest):
     except Exception as e:
         # Catch-all for unexpected failures
         raise HTTPException(status_code=500, detail="Internal AI service error")
+        
